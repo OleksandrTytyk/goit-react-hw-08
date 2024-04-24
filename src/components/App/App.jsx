@@ -57,7 +57,7 @@ function App() {
       <Layout>
         <Suspense fallback={<Loader />}>
           {isRefreshing ? (
-            <span>Please, wait...</span>
+            <span>Please, wait a moment...</span>
           ) : (
             <Routes>
               <Route path="/" element={<HomePage />} />

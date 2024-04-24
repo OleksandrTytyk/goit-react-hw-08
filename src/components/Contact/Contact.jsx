@@ -3,6 +3,7 @@ import { FaUser } from "react-icons/fa";
 import { FcPhoneAndroid } from "react-icons/fc";
 import { useDispatch } from "react-redux";
 import { deleteContact } from "../../redux/contacts/operations";
+// import { deleteContact } from "../../redux/contacts/operations";
 
 const Contact = ({ name, number, id }) => {
   const dispatch = useDispatch();
@@ -24,7 +25,7 @@ const Contact = ({ name, number, id }) => {
             <p>{number}</p>
           </div>
         </div>
-        <button type="button" onClick={() => handleDeleteContact(id)} id={id}>
+        <button type="submit" onClick={() => handleDeleteContact(id)} id={id}>
           Delete
         </button>
       </div>
