@@ -45,7 +45,7 @@ a {
   text-decoration: none;
 }
 
-button {
+/* button {
   display: inline-block;
   border-radius: 5px;
   border: 2px solid black;
@@ -63,7 +63,7 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 img {
   display: block;

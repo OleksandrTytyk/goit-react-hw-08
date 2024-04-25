@@ -1,10 +1,10 @@
-// import { Hairball, HairballPreset } from "react-loader-spinner/dist/beta";
-
 import { ThreeCircles } from "react-loader-spinner";
+
+import css from "./Loader.module.css";
 
 const Loader = () => {
   return (
-    <div>
+    <div className={css.loader}>
       <ThreeCircles
         visible={true}
         height="100"

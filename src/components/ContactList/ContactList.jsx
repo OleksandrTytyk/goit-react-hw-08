@@ -11,11 +11,6 @@ import {
 } from "../../redux/contacts/selectors";
 import { useEffect } from "react";
 import { fetchContacts } from "../../redux/contacts/operations";
-// import {
-//   selectError,
-//   selectFilteredContacts,
-//   selectLoading,
-// } from "../../redux/selectors";
 
 const ContactList = () => {
   const selectContacts = useSelector(selectFilteredContacts);

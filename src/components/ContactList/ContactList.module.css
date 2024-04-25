@@ -5,3 +5,11 @@
   gap: 15px;
   margin-top: 30px;
 }
+
+.itemList {
+  margin-top: 10px;
+}
+
+.listEl {
+  column-gap: 10px;
+}

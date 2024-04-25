@@ -37,7 +37,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       validationSchema={ContactValidationSchema}
     >
-      <Form className={css.form}>
+      <Form>
         <label className={css.label} htmlFor={nameInputId}>
           <span className={css.labelText}>Name</span>
           <Field
