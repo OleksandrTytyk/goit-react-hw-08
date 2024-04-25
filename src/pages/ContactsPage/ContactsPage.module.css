@@ -2,7 +2,8 @@
   background-color: mediumaquamarine;
   display: flex;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   flex-direction: column;
   align-items: center;
   /* border: 1px solid black; */
